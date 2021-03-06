@@ -8,7 +8,6 @@ Contect: dbdxwyn@163.com
 
 For the data set, raw.mat is the original data and has been labeled, and moni.mat is the unlabeled test set.
 
-
 ## 2.libsvm3.24:
 SVM工具箱，使用前存至matlab/toolbox目录下，将libsvm3.24/matlab目录下各函数C文件全部编译为mexw64格式;\
 之后调用时文件名即为函数名。
@@ -30,7 +29,8 @@ When connecting for the first time, you need to select the matlab working path t
 ## 4.Func:
 自定义函数文件，函数功能介绍详见各函数文件。
 
-Self-defined function. For detailed function description, please refer to README.md file in the Func directory.
+Self-defined function.\ 
+For detailed function description, please refer to README.md file in the Func directory.
 
 ## 5.Train & Test:
 其中trainonline.m文件为训练分类器时使用，testonline.m为测试时使用，\
