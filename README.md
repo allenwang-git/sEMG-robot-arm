@@ -10,8 +10,10 @@ The sEMG signal is collected using three-channel surface patch electrodes in 2Kh
 ![图片1](https://user-images.githubusercontent.com/69251304/110206680-297ce580-7eba-11eb-8624-ba36f5478f79.jpg)
 
 ## 1.Dataset
-数据集，raw.mat为原始数据，已打标签；moni.mat为测试集，未打标签。
+getdate-matlab中是采集肌电信号的简单例程, 可以自己构建手势数据集;\
+raw.mat为原始数据，已打标签；moni.mat为测试集，未打标签。
 
+There are some simple examples of collecting EMG signals in getdata-matlab directory, and you can use them to build your own hand gesture dataset;\
 For the data set, raw.mat is the original data and has been labeled, and moni.mat is the unlabeled test set.
 
 ## 2.libsvm3.24
@@ -50,7 +52,7 @@ These two files are only used for signal processing. You do not need to be conne
 GUI/monitor.m 为系统主程序，集成上述功能。
 
 This robot control system is integrated through the GUI, and the trained model and normalization rules need to be placed in this folder before using;\
-GUI/monitor.m is the main program of the system, which integrates the above functions.
+GUI/monitor.m is the main program of the system, which integrates the above functions.\
 ![GUI](https://user-images.githubusercontent.com/69251304/110206875-4d8cf680-7ebb-11eb-8394-9a336c1743f9.gif)
 
 ## 7.Plot
