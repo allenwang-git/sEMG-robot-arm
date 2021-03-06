@@ -32,7 +32,7 @@ When connecting for the first time, you need to select the matlab working path t
 
 Self-defined function. For detailed function description, please refer to README.md file in the Func directory.
 
-## 5.train&test:
+## 5.Train & Test:
 其中trainonline.m文件为训练分类器时使用，testonline.m为测试时使用，\
 两个文件均不需要连接采集卡和下位机，只用来信号处理。
 
@@ -46,7 +46,7 @@ GUI/monitor.m 为系统主程序，集成上述功能。
 This robot control system is integrated through the GUI, and the trained model and normalization rules need to be placed in this folder before using;\
 GUI/monitor.m is the main program of the system, which integrates the above functions.
 
-## 7.plot:
+## 7.Plot:
 图表绘制程序；pre_pic绘制预处理效果；cluster_pic绘制特征聚类图；curve_pic绘制学习曲线，验证曲线。
 
 Chart drawing program\
@@ -54,5 +54,8 @@ pre_pic.m draws the pre-processing effect; \
 cluster_pic.m draws the characteristic clustering diagram; \
 curve_pic.m draws the learning curve and verification curve.
 
+### 8.Supplement
+参考文献及图片视频
 
+References & pictures and videos.
 
