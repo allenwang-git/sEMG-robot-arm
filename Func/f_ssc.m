@@ -1,4 +1,4 @@
-%% 斜率符合变化次数 - SSC - Slope Sign Change, number times
+%% 斜率符合变化次数 - SSC - Slope Sign Change times
 function feature = f_ssc(data)
      
     DeadZone = 10e-7;
