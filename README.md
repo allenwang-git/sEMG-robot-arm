@@ -35,7 +35,7 @@ When connecting for the first time, you need to select the matlab working path t
 ## 4.Func
 自定义函数文件，函数功能介绍详见各函数文件。
 
-Self-defined function.\ 
+Self-defined function.\
 For detailed function description, please refer to README.md file in the Func directory.
 
 ## 5.Train & Test
@@ -51,6 +51,7 @@ GUI/monitor.m 为系统主程序，集成上述功能。
 
 This robot control system is integrated through the GUI, and the trained model and normalization rules need to be placed in this folder before using;\
 GUI/monitor.m is the main program of the system, which integrates the above functions.
+![GUI](https://user-images.githubusercontent.com/69251304/110206875-4d8cf680-7ebb-11eb-8394-9a336c1743f9.gif)
 
 ## 7.Plot
 图表绘制程序；pre_pic绘制预处理效果；cluster_pic绘制特征聚类图；curve_pic绘制学习曲线，验证曲线。
