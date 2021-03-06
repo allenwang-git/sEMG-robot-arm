@@ -1,7 +1,7 @@
 # sEMG-ROBOT-ARM
 Author: Wang Yinuo\
 Date: 2020.05.22\
-Contect: dbdxwyn@163.com\
+Contect: dbdxwyn@163.com
 
 ## 1.Dataset:
 数据集，raw.mat为原始数据，已打标签；moni.mat为测试集，未打标签。
@@ -34,7 +34,7 @@ Self-defined function. For detailed function description, please refer to README
 
 ## 5.train&test:
 其中trainonline.m文件为训练分类器时使用，testonline.m为测试时使用，\
-两个文件均不需要连接采集卡和下位机，只用来信号处理。\
+两个文件均不需要连接采集卡和下位机，只用来信号处理。
 
 The trainonline.m is used when training the classifier, and the testonline.m is used when testing.\
 These two files are only used for signal processing. You do not need to be connected to the acquisition card or the lowe-level computer.
@@ -49,9 +49,9 @@ GUI/monitor.m is the main program of the system, which integrates the above func
 ## 7.plot:
 图表绘制程序；pre_pic绘制预处理效果；cluster_pic绘制特征聚类图；curve_pic绘制学习曲线，验证曲线。
 
-Chart drawing program
-pre_pic.m draws the pre-processing effect; 
-cluster_pic.m draws the characteristic clustering diagram; 
+Chart drawing program\
+pre_pic.m draws the pre-processing effect; \
+cluster_pic.m draws the characteristic clustering diagram; \
 curve_pic.m draws the learning curve and verification curve.
 
 
