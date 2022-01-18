@@ -1,5 +1,5 @@
 # sEMG-ROBOT-ARM
-Author: Wang Yinuo\
+Author: Wang, Yinuo\
 Date: 2020.05.22\
 Contect: dbdxwyn@163.com
 
